@@ -4,7 +4,6 @@ USE `catering_db`;
 
 -- ====================================================
 -- TABLE: admin_users
--- Deskripsi: Tabel untuk menyimpan data admin
 -- ====================================================
 CREATE TABLE IF NOT EXISTS `admin_users` (
   `id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
