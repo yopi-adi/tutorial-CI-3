@@ -1,4 +1,4 @@
--- Database Schema untuk Aplikasi Absensi GPS PT Alfaaz Radif
+-- Database Absensi GPS PT Alfaaz Radif
 -- Database: absensi_gps
 
 CREATE DATABASE IF NOT EXISTS absensi_gps CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
@@ -94,4 +94,5 @@ INSERT INTO shifts (nama_shift, jam_masuk_mulai, jam_masuk_akhir, jam_pulang_mul
 ('Shift Pagi', '07:00:00', '09:00:00', '16:00:00', '18:00:00', 'Shift kerja pagi standar (07:00 - 16:00)', 'aktif', NOW()),
 ('Shift Siang', '12:00:00', '14:00:00', '20:00:00', '22:00:00', 'Shift kerja siang (12:00 - 20:00)', 'aktif', NOW()),
 ('Shift Malam', '20:00:00', '22:00:00', '04:00:00', '06:00:00', 'Shift kerja malam (20:00 - 04:00)', 'aktif', NOW());
+
 
