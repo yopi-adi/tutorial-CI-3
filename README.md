@@ -1,4 +1,4 @@
-# Tutorial: Membuat Aplikasi CodeIgniter 3 + Bootstrap 5 dari Awal
+# Tutorial: Membuat Aplikasi CodeIgniter 3 + Bootstrap 5 (Absensi)
 
 ## Download Links (direct)
 -   **XAMPP (Windows)** --- XAMPP Version **7.3.2**\
