@@ -1,6 +1,8 @@
 -- CONTOH
 
+-- ====================================================
 -- Table: users
+-- ====================================================
 CREATE TABLE IF NOT EXISTS users (
     id INT(11) NOT NULL AUTO_INCREMENT,
     nama_lengkap VARCHAR(255) NOT NULL,
