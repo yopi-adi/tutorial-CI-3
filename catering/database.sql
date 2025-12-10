@@ -20,8 +20,6 @@ CREATE TABLE IF NOT EXISTS `admin_users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 
--- Insert admin default
--- Password: admin123 (akan di-hash menggunakan password_hash())
--- Untuk testing, gunakan password_hash('admin123', PASSWORD_DEFAULT) di PHP
+-- Insert admin
 INSERT INTO `admin_users` (`name`, `email`, `username`, `password`) VALUES
 ('Administrator', 'admin@catering.com', 'admin', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi'); -- password: password (contoh, ganti dengan hash yang benar)
