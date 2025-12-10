@@ -324,7 +324,11 @@ catering/
 │  ├─ gallery/
 │  └─ payments/
 ├─ database_schema.sql
-└─ README.md
+├── index.php (entry point)
+├── .htaccess (URL rewriting)
+├── composer.json
+├── license.txt
+└── readme.rst
 ```
 
 ### Penjelasan Singkat File
